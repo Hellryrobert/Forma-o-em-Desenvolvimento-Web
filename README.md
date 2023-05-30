@@ -4,7 +4,7 @@ Formatar o texto em Html
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Atividade 1 - Tags de &ecir;nfase</title>
+    <title>Atividade 1 - Tags de enfase</title>
   </head>
   <body>
     
