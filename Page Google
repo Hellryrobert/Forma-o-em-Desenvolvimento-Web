@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style> 
+    .letra-azul{
+        color: blue;
+    }
+    .letra-vermelha{
+        color:red;
+    }
+    .letra-amarela{
+        color:yellow;
+    }
+    .letra-verde{
+        color:green;
+    }
+    #logo span{
+        font-size: 120px;
+        text-shadow: 2px 5px 4px gray;
+    }
+    #logo {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    
+    #search{
+        text-align: center;
+    }
+    #button{
+        margin-top: 15px;
+    }
+    #texto{
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    input{
+        width: 550px;
+        height: 40px;
+    }
+    #subtitulo{
+        font-size: 25px;    
+        margin-top: 15px;
+    }
+    #b1{
+        margin-right: 15px;
+    }
+    #footer{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    </style>
+</head>
+<body>
+
+    <div id="logo">
+        <span class="letra-azul">G</span>
+        <span class="letra-vermelha">o</span>
+        <span class="letra-amarela">o</span>
+        <span class="letra-azul">g</span>
+        <span class="letra-verde">l</span>
+        <span class="letra-vermelha">e</span>
+    </div>    
+
+    <div id="search"> 
+        <div id="texto">
+            Enter your search terms...
+        </div>
+        <input type="search">
+        <div id="button">
+            <button id="b1">Google Search</button>
+            <button id="b2">I'm Feelings Lucky</button>
+        </div>
+    <div id="subtitulo">
+        ...or <a href="#">browse web pages</a> by category.
+    </div>
+    <div id="footer"> 
+        Give the gith of Google and earn rewards: <a href="#">Join our affiliate program. </a>
+    </div>    
+    </div>
+</body>
+</html>
